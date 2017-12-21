@@ -67,6 +67,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .title {
   color: white;
   font-weight: lighter;
@@ -82,7 +83,6 @@ header {
   display: flex;
   align-items: center;
   margin-top: 100px;
-  justify-content: flex-start;
   flex-direction: column;
 }
 

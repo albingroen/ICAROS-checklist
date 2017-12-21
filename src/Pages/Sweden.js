@@ -7,7 +7,10 @@ export default class Sweden extends React.Component {
     return (
       <div>
         <Header country="Sweden" />
-        <ChecklistItem ItemTitle="Circut boards" ItemAmount="16" />
+        <div className="checklist-wrapper">
+          <ChecklistItem ItemTitle="Circut boards" ItemAmount="16" />
+          <ChecklistItem ItemTitle="Circut boards" ItemAmount="16" />
+        </div>
       </div>
     )
   }
