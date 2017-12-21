@@ -1,7 +1,8 @@
 import React from 'react'
+import { Header } from '../Comps/Header'
 
 export default class Spain extends React.Component {
   render() {
-    return <h1>Spain</h1>
+    return <Header country="Spain" />
   }
 }
