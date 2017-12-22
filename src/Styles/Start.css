@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +24,7 @@ body {
 }
 
 h1 {
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -42,17 +46,17 @@ button {
   text-decoration: cornflowerblue;
   cursor: pointer;
   transition: 0.1s ease-out;
-  letter-spacing: 0.5px;
 }
 button:focus {
   outline: none;
 }
 button:hover {
-  background: rgb(81, 130, 221);
   transition: 0.1s ease-out;
+  background: rgb(78, 127, 218);
 }
 .button-wrapper {
   margin: 10px;
+  color: white;
 }
 
 /* Country-page */
@@ -79,15 +83,15 @@ header {
 
 .checklist-wrapper {
   width: 100%;
-  height: 500px;
   display: flex;
   align-items: center;
   margin-top: 100px;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .item-container {
-  width: 50%;
+  width: 70%;
   padding: 20px;
   background: #fff;
   border: 0.5px solid lightgrey;

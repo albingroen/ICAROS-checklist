@@ -6,7 +6,9 @@ export class Startbutton extends React.Component {
     return (
       <div className="button-wrapper">
         <Link to={this.props.path}>
-          <button>{this.props.text}</button>
+          <button className="button hvr-sweep-to-right">
+            {this.props.text}
+          </button>
         </Link>
       </div>
     )

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../Styles/Start.css'
+import '../Styles/Hover-master/css/hover.css'
 import { Startbutton } from '../Comps/startbutton'
 
 export default class Start extends Component {

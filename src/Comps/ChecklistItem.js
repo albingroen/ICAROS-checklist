@@ -5,7 +5,7 @@ export class ChecklistItem extends React.Component {
     return (
       <div className="item-container">
         <input type="checkbox" />
-        <h3>x{this.props.ItemAmount}</h3>
+        <h3 className="amount">x{this.props.ItemAmount}</h3>
         <h3>{this.props.ItemTitle}</h3>
       </div>
     )
